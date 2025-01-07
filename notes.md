@@ -34,7 +34,8 @@
 <!-- Notes go here -->
 Batch edit or delete by a given beginDate or endDate (only one is required)
 Batch edit requires an old status to change from and a new status to change to
-```{
+```
+{
   "type": "edit" | "delete",
   "oldStatus": "pending",
   "newStatus": "pending",
